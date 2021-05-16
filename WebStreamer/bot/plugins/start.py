@@ -53,13 +53,14 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
+            text='🙋 **Hey Bruh!!\n\n**I am Instant Telegram File to Link Generator Bot**.\n\n**Send me any file & see the magic!**',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Discovery_Updates'), InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')]
+                    [InlineKeyboardButton('Bots Channel 📌', url='https://t.me/My_Test_Botz'), InlineKeyboardButton('💰 Donate', url='https://t.me/amanimuhd_bot')],
+                    [InlineKeyboardButton('Developer 👨‍💻', url='https://t.me/Amani_m_h_d')]
                 ]
             ),
+            parse_mode="markdown",
             disable_web_page_preview=True
         )
     else:
@@ -177,8 +178,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("📜 Updates Channel", url="https://t.me/My_Test_Botz"), InlineKeyboardButton("Donate 💰", url="https://t.me/amanimuhd_bot")],
+                [InlineKeyboardButton("Developer 👨‍💻", url="https://t.me/Amani_m_h_d")]
             ]
         )
     )
