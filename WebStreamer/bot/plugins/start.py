@@ -86,7 +86,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/AH_File2Link_Bot?start=AbirHasan2005_{usr_cmd}")
+                                                     url=f"https://t.me/TG_FileToLinkBot?start=Amanimuhammed_{usr_cmd}")
                             ]
                         ]
                     ),
@@ -168,7 +168,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Owner](https://t.me/Amani_m_h_d).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
