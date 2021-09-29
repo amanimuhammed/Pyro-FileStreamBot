@@ -53,7 +53,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 **Hey Bruh!!\n\n**I am Instant Telegram File to Link Generator Bot**.\n\n**Send me any file & see the magic!**',
+            text='**Hey Bruh!!\n\nI am Instant Telegram File to Link Generator Bot**.\n\n**Send me any file & see the magic!**\n\n__Bot also Supported with Channels. Add bot to Channel as Admin. If any new file comes in Channel it will edit it with Get Download Link Button.__',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('Bots Channel 📌', url='https://t.me/My_Test_Botz'), InlineKeyboardButton('💰 Donate', url='https://t.me/amanimuhd_bot')],
